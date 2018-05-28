@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <title>Its Travel - Agência de Viagens</title>
 
     <!-- META TAGS -->
@@ -12,19 +13,17 @@
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
+</head>
 
+<body>
 
-
-  </head>
-  <body>
-    
     <!-- NAVEGAÇÃO TOPO-->
     <nav class="navbar p-3 navbar-expand-lg navbar-dark bg-primary">
 
         <div class="container">
 
             <!-- LOGOMARCA-->
-            <a class = "navbar-brand h1 mb-0" href="#">LOGO - Its Travel</a>
+            <a class="navbar-brand h1 mb-0" href="#">LOGO - Its Travel</a>
 
             <!-- BOTÃO MOBILE-->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
@@ -33,7 +32,7 @@
 
             <div class="collapse navbar-collapse" id="navbarSite">
 
-                <!-- LINKS DO MENU -->  
+                <!-- LINKS DO MENU -->
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item ml-3 mr-3">
                         <a class="nav-link" href="#">HOME</a>
@@ -57,8 +56,7 @@
                     <li><a class="nav-link" href="#"><i class="fab fa-youtube"></i></a></li>
                 </ul>
 
-
-               <!-- <ul class="navbar-nav ml-auto">
+                <!-- <ul class="navbar-nav ml-auto">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
                             REDES SOCIAIS
@@ -104,17 +102,17 @@
             <div class="carousel-item">
                 <img src="itens/img/slide-02.jpg" class="img-fluid d-block">
                 <div class="carousel-caption d-none d-md-block">
-                        <h3>Conheça Curitiba</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ex tempus, egestas nisl nec.</p>
-                    </div>
+                    <h3>Conheça Curitiba</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ex tempus, egestas nisl nec.</p>
+                </div>
             </div>
             <div class="carousel-item">
-                    <img src="itens/img/slide-03.jpg" class="img-fluid d-block">
-                    <div class="carousel-caption d-none d-md-block">
-                            <h3>Passeio de Trem Morretes</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ex tempus, egestas nisl nec.</p>
-                        </div>
+                <img src="itens/img/slide-03.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Passeio de Trem Morretes</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ex tempus, egestas nisl nec.</p>
                 </div>
+            </div>
         </div>
 
         <!-- ÍCONE "ANTERIOR" DO SLIDE -->
@@ -135,6 +133,7 @@
     <div class="container">
 
         <!-- TÍTULO TOPO "BEM VINDO" -->
+        <!--
         <div class="row">
             <div class="col-12 text-center my-5">
                 <h1 class="display-3">Seja Bem Vindo</h1>
@@ -142,160 +141,353 @@
                     Nulla at tristique quam, semper sagittis est. Fusce rutrum venenatis diam,
                     a sollicitudin mi vulputate nec.</p>
             </div>
+        </div> 
+    -->
+
+        <!-- PASSEIOS REGIONAIS -->
+        <div class="viagens pr-5 pl-5">
+            <table class="titulo-viagens my-4">
+                <tr class="border-bottom">
+                    <td class="icone">
+                        <i class="fas fa-map-marker pb-3 mr-2 text-danger"></i>
+                    </td>
+                    <td class="text-left">
+                        <h3 class="card-title font-weight-bold">PASSEIOS REGIONAIS</h3>
+                    </td>
+                    <td class="text-right">
+                        <a class="btn btn-danger btn-sm" href="#">Ver Todos</a>
+                    </td>
+            </table>
         </div>
 
-
-            <!-- GRUPO DE ITENS VIAGENS -->
-            <div class="card-deck mb-5">
-                <!-- ITEM -->
-                <div class="card shadow-sm">
+        <!-- GRUPO DE ITENS VIAGENS -->
+        <div class="row pr-5 pl-5">
+            <!-- ITEM -->
+            <div class="col-4">
+                <div class="item-viagem card mb-5 shadow-sm">
                     <!-- IMAGEM DO ITEM-->
                     <img class="card-img-top" src="itens/img/slide-01.jpg" alt="Card image cap">
                     <!-- DESCRIÇÃO DO ITEM -->
                     <div class="card-body p-2">
                         <h5 class="card-title text-danger text-weight-bold m-0">BETO CARRERO WORLD</h5>
                         <small class="text-muted text-weight-bold my-0">Transporte + Passaporte</small>
-                        <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+
                     </div>
                     <!-- PREÇO E BOTÃO COMPRAR -->
                     <div class="card-footer">
                         <div class="row">
-                            <div class="col-6 text-center">
+                            <div class="col-6 text-left py-1">
                                 <small class="text-muted">Compre Agora:</small>
-                                <h4 class="text-danger font-weight-bold mb-0">R$ 399,99</h4>
+                                <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
                             </div>
-                            <div class="col-6 text-center">
-                                <button class="btn btn-danger my-2 pl-4 pr-4">Comprar</button>
+                            <div class="col-6 text-right">
+                                <button class="btn btn-danger my-2 pl-4 pr-4 btn-lg">Comprar</button>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <!-- ITEM -->
+            <div class="col-4">
+                <div class="item-viagem mb-5 card shadow-sm">
+                    <!-- IMAGEM DO ITEM-->
+                    <img class="card-img-top" src="itens/img/slide-02.jpg" alt="Card image cap">
+                    <!-- DESCRIÇÃO DO ITEM -->
+                    <div class="card-body p-2">
+                        <h5 class="card-title text-danger text-weight-bold m-0">PASSEIO A CURITIBA/PR</h5>
+                        <small class="text-muted text-weight-bold my-0">Transporte + Passaporte</small>
 
+                    </div>
+                    <!-- PREÇO E BOTÃO COMPRAR -->
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col-6 text-left py-1">
+                                <small class="text-muted">Compre Agora:</small>
+                                <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
+                            </div>
+                            <div class="col-6 text-right">
+                                <a class="btn btn-danger my-2 pl-4 pr-4 btn-lg" href="#">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ITEM -->
+            <div class="col-4">
+                <div class="item-viagem mb-5 card shadow-sm">
+                    <!-- IMAGEM DO ITEM-->
+                    <img class="card-img-top" src="itens/img/slide-03.jpg" alt="Card image cap">
+                    <!-- DESCRIÇÃO DO ITEM -->
+                    <div class="card-body p-2">
+                        <h5 class="card-title text-danger text-weight-bold m-0">PASSEIO TREM MORRETES</h5>
+                        <small class="text-muted text-weight-bold my-0">Transporte + Passaporte</small>
+
+                    </div>
+                    <!-- PREÇO E BOTÃO COMPRAR -->
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col-6 text-left py-1">
+                                <small class="text-muted">Compre Agora:</small>
+                                <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
+                            </div>
+                            <div class="col-6 text-right">
+                                <button class="btn btn-danger my-2 pl-4 pr-4 btn-lg">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+         <!-- VIAGENS AÉREAS -->
+         <div class="viagens pr-5 pl-5">
+                <table class="titulo-viagens my-4">
+                    <tr class="border-bottom">
+                        <td class="icone">
+                            <i class="fas fa-plane pb-3 mr-2 text-danger"></i>
+                        </td>
+                        <td class="text-left">
+                            <h3 class="card-title font-weight-bold">VIAGENS AÉREAS</h3>
+                        </td>
+                        <td class="text-right">
+                            <a class="btn btn-danger btn-sm" href="#">Ver Todos</a>
+                        </td>
+                </table>
+            </div>
+    
+            <!-- GRUPO DE ITENS VIAGENS -->
+            <div class="row pr-5 pl-5">
                 <!-- ITEM -->
-                <div class="card shadow-sm">
+                <div class="col-4">
+                    <div class="item-viagem card mb-5 shadow-sm">
+                        <!-- IMAGEM DO ITEM-->
+                        <img class="card-img-top" src="itens/img/slide-01.jpg" alt="Card image cap">
+                        <!-- DESCRIÇÃO DO ITEM -->
+                        <div class="card-body p-2">
+                            <h5 class="card-title text-danger text-weight-bold m-0">BETO CARRERO WORLD</h5>
+                            <small class="text-muted text-weight-bold my-0">Transporte + Passaporte</small>
+    
+                        </div>
+                        <!-- PREÇO E BOTÃO COMPRAR -->
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-6 text-left py-1">
+                                    <small class="text-muted">Compre Agora:</small>
+                                    <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <button class="btn btn-danger my-2 pl-4 pr-4 btn-lg">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ITEM -->
+                <div class="col-4">
+                    <div class="item-viagem mb-5 card shadow-sm">
                         <!-- IMAGEM DO ITEM-->
                         <img class="card-img-top" src="itens/img/slide-02.jpg" alt="Card image cap">
                         <!-- DESCRIÇÃO DO ITEM -->
                         <div class="card-body p-2">
                             <h5 class="card-title text-danger text-weight-bold m-0">PASSEIO A CURITIBA/PR</h5>
                             <small class="text-muted text-weight-bold my-0">Transporte + Passaporte</small>
-                            
+    
                         </div>
                         <!-- PREÇO E BOTÃO COMPRAR -->
                         <div class="card-footer">
                             <div class="row">
-                                <div class="col-6 text-center">
+                                <div class="col-6 text-left py-1">
                                     <small class="text-muted">Compre Agora:</small>
-                                    <h4 class="text-danger font-weight-bold mb-0">R$ 399,99</h4>
+                                    <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
                                 </div>
-                                <div class="col-6 text-center">
-                                    <button class="btn btn-danger my-2 pl-4 pr-4">Comprar</button>
+                                <div class="col-6 text-right">
+                                    <a class="btn btn-danger my-2 pl-4 pr-4 btn-lg" href="#">Comprar</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- ITEM -->
-                    <div class="card shadow-sm">
-                            <!-- IMAGEM DO ITEM-->
-                            <img class="card-img-top" src="itens/img/slide-03.jpg" alt="Card image cap">
-                            <!-- DESCRIÇÃO DO ITEM -->
-                            <div class="card-body p-2">
-                                <h5 class="card-title text-danger text-weight-bold m-0">PASSEIO TREM MORRETES</h5>
-                                <small class="text-muted text-weight-bold my-0">Transporte + Passaporte</small>
-                                <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
-                            <!-- PREÇO E BOTÃO COMPRAR -->
-                            <div class="card-footer">
-                                <div class="row">
-                                    <div class="col-6 text-center">
-                                        <small class="text-muted">Compre Agora:</small>
-                                        <h4 class="text-danger font-weight-bold mb-0">R$ 399,99</h4>
-                                    </div>
-                                    <div class="col-6 text-center">
-                                        <button class="btn btn-danger my-2 pl-4 pr-4">Comprar</button>
-                                    </div>
+                </div>
+                <!-- ITEM -->
+                <div class="col-4">
+                    <div class="item-viagem mb-5 card shadow-sm">
+                        <!-- IMAGEM DO ITEM-->
+                        <img class="card-img-top" src="itens/img/slide-03.jpg" alt="Card image cap">
+                        <!-- DESCRIÇÃO DO ITEM -->
+                        <div class="card-body p-2">
+                            <h5 class="card-title text-danger text-weight-bold m-0">PASSEIO TREM MORRETES</h5>
+                            <small class="text-muted text-weight-bold my-0">Transporte + Passaporte</small>
+    
+                        </div>
+                        <!-- PREÇO E BOTÃO COMPRAR -->
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-6 text-left py-1">
+                                    <small class="text-muted">Compre Agora:</small>
+                                    <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <button class="btn btn-danger my-2 pl-4 pr-4 btn-lg">Comprar</button>
                                 </div>
                             </div>
                         </div>
-
+                    </div>
+                </div>
             </div>
 
-        <!-- PARTE 1 -->
+            <!-- INGRESSOS -->
+         <div class="viagens pr-5 pl-5">
+                <table class="titulo-viagens my-4">
+                    <tr class="border-bottom">
+                        <td class="icone">
+                            <i class="fas fa-tick pb-3 mr-2 text-danger"></i>
+                        </td>
+                        <td class="text-left">
+                            <h3 class="card-title font-weight-bold">INGRESSOS</h3>
+                        </td>
+                        <td class="text-right">
+                            <a class="btn btn-danger btn-sm" href="#">Ver Todos</a>
+                        </td>
+                </table>
+            </div>
+    
+            <!-- GRUPO DE ITENS VIAGENS -->
+            <div class="row pr-5 pl-5">
+                <!-- ITEM -->
+                <div class="col-4">
+                    <div class="item-viagem card mb-5 shadow-sm">
+                        <!-- IMAGEM DO ITEM-->
+                        <img class="card-img-top" src="itens/img/slide-01.jpg" alt="Card image cap">
+                        <!-- DESCRIÇÃO DO ITEM -->
+                        <div class="card-body p-2">
+                            <h5 class="card-title text-danger text-weight-bold m-0">BETO CARRERO WORLD</h5>
+                            <small class="text-muted text-weight-bold my-0">Transporte + Passaporte</small>
+    
+                        </div>
+                        <!-- PREÇO E BOTÃO COMPRAR -->
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-6 text-left py-1">
+                                    <small class="text-muted">Compre Agora:</small>
+                                    <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <button class="btn btn-danger my-2 pl-4 pr-4 btn-lg">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ITEM -->
+                <div class="col-4">
+                    <div class="item-viagem mb-5 card shadow-sm">
+                        <!-- IMAGEM DO ITEM-->
+                        <img class="card-img-top" src="itens/img/slide-02.jpg" alt="Card image cap">
+                        <!-- DESCRIÇÃO DO ITEM -->
+                        <div class="card-body p-2">
+                            <h5 class="card-title text-danger text-weight-bold m-0">PASSEIO A CURITIBA/PR</h5>
+                            <small class="text-muted text-weight-bold my-0">Transporte + Passaporte</small>
+    
+                        </div>
+                        <!-- PREÇO E BOTÃO COMPRAR -->
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-6 text-left py-1">
+                                    <small class="text-muted">Compre Agora:</small>
+                                    <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <a class="btn btn-danger my-2 pl-4 pr-4 btn-lg" href="#">Comprar</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- ITEM -->
+                <div class="col-4">
+                    <div class="item-viagem mb-5 card shadow-sm">
+                        <!-- IMAGEM DO ITEM-->
+                        <img class="card-img-top" src="itens/img/slide-03.jpg" alt="Card image cap">
+                        <!-- DESCRIÇÃO DO ITEM -->
+                        <div class="card-body p-2">
+                            <h5 class="card-title text-danger text-weight-bold m-0">PASSEIO TREM MORRETES</h5>
+                            <small class="text-muted text-weight-bold my-0">Transporte + Passaporte</small>
+    
+                        </div>
+                        <!-- PREÇO E BOTÃO COMPRAR -->
+                        <div class="card-footer">
+                            <div class="row">
+                                <div class="col-6 text-left py-1">
+                                    <small class="text-muted">Compre Agora:</small>
+                                    <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <button class="btn btn-danger my-2 pl-4 pr-4 btn-lg">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+<!--
+
         <div class="row">
-            <!-- COLUNA ESQUERDA -->
+
             <div class="col-3">
                 <nav id="navbarVertical" class="navbar navbar-light bg-light">
 
                     <nav class="nav nav-pills flex-column">
                         <a class="nav-link" href="#item1">Item 1</a>
-                            <nav class="nav nav-pills flex-column">
-                                <a class="nav-link ml-3" href="#item1-1">Item 1-1</a>
-                                <a class="nav-link ml-3" href="#item1-2">Item 1-2</a>
-                            </nav>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item1-1">Item 1-1</a>
+                            <a class="nav-link ml-3" href="#item1-2">Item 1-2</a>
+                        </nav>
                         <a class="nav-link my-2" href="#item2">Item 2</a>
                         <a class="nav-link my-2" href="#item3">Item 3</a>
-                            <nav class="nav nav-pills flex-column">
-                                <a class="nav-link ml-3" href="#item3-1">Item 3-1</a>
-                                <a class="nav-link ml-3" href="#item3-2">Item 3-2</a>
-                            </nav>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item3-1">Item 3-1</a>
+                            <a class="nav-link ml-3" href="#item3-2">Item 3-2</a>
+                        </nav>
                     </nav>
 
                 </nav>
             </div>
 
-            <!-- COLUNA DIREITA -->
+
             <div class="col-9">
 
                 <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
 
                     <h4 id="item1">Item 1</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ex tempus, egestas nisl nec,
-                        auctor ipsum. Curabitur est nisl, scelerisque efficitur auctor quis, cursus sit amet nunc.
-                        In hac habitasse platea dictumst. Pellentesque quam quam, viverra ac sollicitudin id,
-                        feugiat a quam. Suspendisse viverra ultrices lacinia.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ex tempus, egestas nisl nec, auctor ipsum. Curabitur est nisl, scelerisque efficitur auctor quis, cursus sit amet nunc. In hac habitasse platea dictumst. Pellentesque quam quam, viverra ac sollicitudin id, feugiat a quam. Suspendisse viverra ultrices lacinia.</p>
 
                     <h5 id="item1-1">Item 1-1</h5>
-                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut.
-                        Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum
-                        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla
-                        in leo porttitor ornare. Integer non quam dolor.</p>
+                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut. Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla in leo porttitor ornare. Integer non quam dolor.</p>
 
                     <h5 id="item1-2">Item 1-2</h5>
-                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut.
-                        Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum
-                        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla
-                        in leo porttitor ornare. Integer non quam dolor.</p>
+                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut. Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla in leo porttitor ornare. Integer non quam dolor.</p>
 
                     <h5 id="item2">Item 2</h5>
-                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut.
-                        Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum
-                        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla
-                        in leo porttitor ornare. Integer non quam dolor.</p>
+                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut. Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla in leo porttitor ornare. Integer non quam dolor.</p>
 
                     <h5 id="item3">Item 3</h5>
-                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut.
-                        Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum
-                        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla
-                        in leo porttitor ornare. Integer non quam dolor.</p>
-                    
+                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut. Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla in leo porttitor ornare. Integer non quam dolor.</p>
+
                     <h5 id="item3-1">Item 3-1</h5>
-                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut.
-                        Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum
-                        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla
-                        in leo porttitor ornare. Integer non quam dolor.</p>
+                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut. Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla in leo porttitor ornare. Integer non quam dolor.</p>
 
                     <h5 id="item3-2">Item 3-2</h5>
-                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut.
-                        Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum
-                        ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla
-                        in leo porttitor ornare. Integer non quam dolor.</p>
+                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut. Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla in leo porttitor ornare. Integer non quam dolor.</p>
                 </div>
 
             </div>
 
         </div>
-
-
+    </div>
+-->
 
     </div>
 
@@ -305,5 +497,6 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  </body>
+</body>
+
 </html>
