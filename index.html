@@ -18,7 +18,7 @@
 <body>
 
     <!-- NAVEGAÇÃO TOPO-->
-    <nav class="header navbar p-3 navbar-expand-lg navbar-dark bg-primary">
+    <nav class="fixed-top header navbar p-3 navbar-expand-lg navbar-dark bg-primary">
 
         <div class="container">
 
@@ -81,7 +81,7 @@
 
     <!-- CARROSSEL SITE -->
 
-    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+    <div id="carouselSite" class="carousel slide banner-inicio" data-ride="carousel">
 
         <!-- INDICADORES DOS SLIDES -->
         <ol class="carousel-indicators">
@@ -144,6 +144,9 @@
         </div> 
     -->
 
+
+
+
         <!-- PASSEIOS REGIONAIS -->
         <div class="viagens">
             <table class="titulo-viagens my-4">
@@ -166,7 +169,7 @@
             <div class="col-4">
                 <div class="item-viagem card mb-5 shadow-sm">
                     <!-- IMAGEM DO ITEM-->
-                    <img class="card-img-top" src="itens/img/slide-01.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="itens/img/viagens/2.jpg" alt="Card image cap">
                     <!-- DESCRIÇÃO DO ITEM -->
                     <div class="card-body p-2">
                         <h5 class="card-title text-danger text-weight-bold m-0">BETO CARRERO WORLD</h5>
@@ -177,11 +180,13 @@
                     <div class="card-footer">
                         <div class="row">
                             <div class="col-6 text-left py-1">
-                                <small class="text-muted">Compre Agora:</small>
-                                <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
+                                <small class="text-muted my-1">Compre Agora:</small>
+                                <h3 class="preco text-danger font-weight-bold">R$ 139,99</h3>
+                                <div class="parcela">
+                                    <small class="text-muted">Em Até 5x no cartão</small></div>
                             </div>
                             <div class="col-6 text-right">
-                                <button class="btn btn-danger my-2 pl-4 pr-4">Comprar</button>
+                                <button class="btn btn-danger my-3 pl-4 pr-4 btn-lg">Comprar</button>
                             </div>
                         </div>
                     </div>
@@ -191,7 +196,7 @@
             <div class="col-4">
                 <div class="item-viagem mb-5 card shadow-sm">
                     <!-- IMAGEM DO ITEM-->
-                    <img class="card-img-top" src="itens/img/slide-02.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="itens/img/viagens/3.jpg" alt="Card image cap">
                     <!-- DESCRIÇÃO DO ITEM -->
                     <div class="card-body p-2">
                         <h5 class="card-title text-danger text-weight-bold m-0">PASSEIO A CURITIBA/PR</h5>
@@ -200,23 +205,25 @@
                     </div>
                     <!-- PREÇO E BOTÃO COMPRAR -->
                     <div class="card-footer">
-                        <div class="row">
-                            <div class="col-6 text-left py-1">
-                                <small class="text-muted">Compre Agora:</small>
-                                <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
-                            </div>
-                            <div class="col-6 text-right">
-                                <a class="btn btn-danger my-2 pl-4 pr-4 btn" href="#">Comprar</a>
+                            <div class="row">
+                                <div class="col-6 text-left py-1">
+                                    <small class="text-muted my-1">Compre Agora:</small>
+                                    <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                    <div class="parcela">
+                                        <small class="text-muted">Em Até 5x no cartão</small></div>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <button class="btn btn-danger my-3 pl-4 pr-4 btn-lg">Comprar</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
             <!-- ITEM -->
             <div class="col-4">
                 <div class="item-viagem mb-5 card shadow-sm">
                     <!-- IMAGEM DO ITEM-->
-                    <img class="card-img-top" src="itens/img/slide-03.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="itens/img/viagens/1.jpg" alt="Card image cap">
                     <!-- DESCRIÇÃO DO ITEM -->
                     <div class="card-body p-2">
                         <h5 class="card-title text-danger text-weight-bold m-0">PASSEIO TREM MORRETES</h5>
@@ -225,16 +232,18 @@
                     </div>
                     <!-- PREÇO E BOTÃO COMPRAR -->
                     <div class="card-footer">
-                        <div class="row">
-                            <div class="col-6 text-left py-1">
-                                <small class="text-muted">Compre Agora:</small>
-                                <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
-                            </div>
-                            <div class="col-6 text-right">
-                                <button class="btn btn-danger my-2 pl-4 pr-4 btn">Comprar</button>
+                            <div class="row">
+                                <div class="col-6 text-left py-1">
+                                    <small class="text-muted my-1">Compre Agora:</small>
+                                    <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                    <div class="parcela">
+                                        <small class="text-muted">Em Até 5x no cartão</small></div>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <button class="btn btn-danger my-3 pl-4 pr-4 btn-lg">Comprar</button>
+                                </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
 
@@ -243,6 +252,7 @@
 
 
          <!-- VIAGENS AÉREAS -->
+
          <div class="viagens">
                 <table class="titulo-viagens my-4">
                     <tr class="border-bottom">
@@ -257,29 +267,30 @@
                         </td>
                 </table>
             </div>
-    
-            <!-- GRUPO DE ITENS VIAGENS -->
-            <div class="row">
+
+         <div class="row">
                 <!-- ITEM -->
                 <div class="col-4">
                     <div class="item-viagem card mb-5 shadow-sm">
                         <!-- IMAGEM DO ITEM-->
-                        <img class="card-img-top" src="itens/img/slide-01.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="itens/img/viagens/4.jpg" alt="Card image cap">
                         <!-- DESCRIÇÃO DO ITEM -->
                         <div class="card-body p-2">
-                            <h5 class="card-title text-danger text-weight-bold m-0">BETO CARRERO WORLD</h5>
-                            <h6 class="card-subtitle my-0 text-muted">Transporte + Passaporte</h6>
+                            <h5 class="card-title text-danger text-weight-bold m-0">BLUMENAU/SC</h5>
+                            <h6 class="card-subtitle my-0 text-muted">Passagem + Hospedagem</h6>
     
                         </div>
                         <!-- PREÇO E BOTÃO COMPRAR -->
                         <div class="card-footer">
                             <div class="row">
                                 <div class="col-6 text-left py-1">
-                                    <small class="text-muted">Compre Agora:</small>
-                                    <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
+                                    <small class="text-muted my-1">Compre Agora:</small>
+                                    <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                    <div class="parcela">
+                                        <small class="text-muted">Em Até 5x no cartão</small></div>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <button class="btn btn-danger my-2 pl-4 pr-4">Comprar</button>
+                                    <button class="btn btn-danger my-3 pl-4 pr-4 btn-lg">Comprar</button>
                                 </div>
                             </div>
                         </div>
@@ -289,7 +300,7 @@
                 <div class="col-4">
                     <div class="item-viagem mb-5 card shadow-sm">
                         <!-- IMAGEM DO ITEM-->
-                        <img class="card-img-top" src="itens/img/slide-02.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="itens/img/viagens/3.jpg" alt="Card image cap">
                         <!-- DESCRIÇÃO DO ITEM -->
                         <div class="card-body p-2">
                             <h5 class="card-title text-danger text-weight-bold m-0">PASSEIO A CURITIBA/PR</h5>
@@ -298,23 +309,25 @@
                         </div>
                         <!-- PREÇO E BOTÃO COMPRAR -->
                         <div class="card-footer">
-                            <div class="row">
-                                <div class="col-6 text-left py-1">
-                                    <small class="text-muted">Compre Agora:</small>
-                                    <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
-                                </div>
-                                <div class="col-6 text-right">
-                                    <a class="btn btn-danger my-2 pl-4 pr-4" href="#">Comprar</a>
+                                <div class="row">
+                                    <div class="col-6 text-left py-1">
+                                        <small class="text-muted my-1">Compre Agora:</small>
+                                        <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                        <div class="parcela">
+                                            <small class="text-muted">Em Até 5x no cartão</small></div>
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        <button class="btn btn-danger my-3 pl-4 pr-4 btn-lg">Comprar</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
                 <!-- ITEM -->
                 <div class="col-4">
                     <div class="item-viagem mb-5 card shadow-sm">
                         <!-- IMAGEM DO ITEM-->
-                        <img class="card-img-top" src="itens/img/slide-03.jpg" alt="Card image cap">
+                        <img class="card-img-top" src="itens/img/viagens/1.jpg" alt="Card image cap">
                         <!-- DESCRIÇÃO DO ITEM -->
                         <div class="card-body p-2">
                             <h5 class="card-title text-danger text-weight-bold m-0">PASSEIO TREM MORRETES</h5>
@@ -323,18 +336,21 @@
                         </div>
                         <!-- PREÇO E BOTÃO COMPRAR -->
                         <div class="card-footer">
-                            <div class="row">
-                                <div class="col-6 text-left py-1">
-                                    <small class="text-muted">Compre Agora:</small>
-                                    <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
-                                </div>
-                                <div class="col-6 text-right">
-                                    <button class="btn btn-danger my-2 pl-4 pr-4">Comprar</button>
+                                <div class="row">
+                                    <div class="col-6 text-left py-1">
+                                        <small class="text-muted my-1">Compre Agora:</small>
+                                        <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                        <div class="parcela">
+                                            <small class="text-muted">Em Até 5x no cartão</small></div>
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        <button class="btn btn-danger my-3 pl-4 pr-4 btn-lg">Comprar</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
+    
             </div>
 
             <!-- INGRESSOS -->
@@ -355,82 +371,89 @@
     
             <!-- GRUPO DE ITENS VIAGENS -->
             <div class="row">
-                <!-- ITEM -->
-                <div class="col-4">
-                    <div class="item-viagem card mb-5 shadow-sm">
-                        <!-- IMAGEM DO ITEM-->
-                        <img class="card-img-top" src="itens/img/slide-01.jpg" alt="Card image cap">
-                        <!-- DESCRIÇÃO DO ITEM -->
-                        <div class="card-body p-2">
-                            <h5 class="card-title text-danger text-weight-bold m-0">BETO CARRERO WORLD</h5>
-                            <h6 class="card-subtitle my-0 text-muted">Transporte + Passaporte</h6>
-    
-                        </div>
-                        <!-- PREÇO E BOTÃO COMPRAR -->
-                        <div class="card-footer">
-                            <div class="row">
-                                <div class="col-6 text-left py-1">
-                                    <small class="text-muted">Compre Agora:</small>
-                                    <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
-                                </div>
-                                <div class="col-6 text-right">
-                                    <button class="btn btn-danger my-2 pl-4 pr-4">Comprar</button>
+                    <!-- ITEM -->
+                    <div class="col-4">
+                        <div class="item-viagem card mb-5 shadow-sm">
+                            <!-- IMAGEM DO ITEM-->
+                            <img class="card-img-top" src="itens/img/viagens/2.jpg" alt="Card image cap">
+                            <!-- DESCRIÇÃO DO ITEM -->
+                            <div class="card-body p-2">
+                                <h5 class="card-title text-danger text-weight-bold m-0">BETO CARRERO WORLD</h5>
+                                <h6 class="card-subtitle my-0 text-muted">Transporte + Passaporte</h6>
+        
+                            </div>
+                            <!-- PREÇO E BOTÃO COMPRAR -->
+                            <div class="card-footer">
+                                <div class="row">
+                                    <div class="col-6 text-left py-1">
+                                        <small class="text-muted my-1">Compre Agora:</small>
+                                        <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                        <div class="parcela">
+                                            <small class="text-muted">Em Até 5x no cartão</small></div>
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        <button class="btn btn-danger my-3 pl-4 pr-4 btn-lg">Comprar</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- ITEM -->
-                <div class="col-4">
-                    <div class="item-viagem mb-5 card shadow-sm">
-                        <!-- IMAGEM DO ITEM-->
-                        <img class="card-img-top" src="itens/img/slide-02.jpg" alt="Card image cap">
-                        <!-- DESCRIÇÃO DO ITEM -->
-                        <div class="card-body p-2">
-                            <h5 class="card-title text-danger text-weight-bold m-0">PASSEIO A CURITIBA/PR</h5>
-                            <h6 class="card-subtitle my-0 text-muted">Transporte + Passaporte</h6>
-    
-                        </div>
-                        <!-- PREÇO E BOTÃO COMPRAR -->
-                        <div class="card-footer">
-                            <div class="row">
-                                <div class="col-6 text-left py-1">
-                                    <small class="text-muted">Compre Agora:</small>
-                                    <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
-                                </div>
-                                <div class="col-6 text-right">
-                                    <a class="btn btn-danger my-2 pl-4 pr-4" href="#">Comprar</a>
-                                </div>
+                    <!-- ITEM -->
+                    <div class="col-4">
+                        <div class="item-viagem mb-5 card shadow-sm">
+                            <!-- IMAGEM DO ITEM-->
+                            <img class="card-img-top" src="itens/img/viagens/3.jpg" alt="Card image cap">
+                            <!-- DESCRIÇÃO DO ITEM -->
+                            <div class="card-body p-2">
+                                <h5 class="card-title text-danger text-weight-bold m-0">PASSEIO A CURITIBA/PR</h5>
+                                <h6 class="card-subtitle my-0 text-muted">Transporte + Passaporte</h6>
+        
                             </div>
+                            <!-- PREÇO E BOTÃO COMPRAR -->
+                            <div class="card-footer">
+                                    <div class="row">
+                                        <div class="col-6 text-left py-1">
+                                            <small class="text-muted my-1">Compre Agora:</small>
+                                            <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                            <div class="parcela">
+                                                <small class="text-muted">Em Até 5x no cartão</small></div>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <button class="btn btn-danger my-3 pl-4 pr-4 btn-lg">Comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
-                </div>
-                <!-- ITEM -->
-                <div class="col-4">
-                    <div class="item-viagem mb-5 card shadow-sm">
-                        <!-- IMAGEM DO ITEM-->
-                        <img class="card-img-top" src="itens/img/slide-03.jpg" alt="Card image cap">
-                        <!-- DESCRIÇÃO DO ITEM -->
-                        <div class="card-body p-2">
-                            <h5 class="card-title text-danger text-weight-bold mb-0">PASSEIO TREM MORRETES</h5>
-                            <h6 class="card-subtitle my-0 text-muted">Transporte + Passaporte</h6>
-    
-                        </div>
-                        <!-- PREÇO E BOTÃO COMPRAR -->
-                        <div class="card-footer">
-                            <div class="row">
-                                <div class="col-6 text-left py-1">
-                                    <small class="text-muted">Compre Agora:</small>
-                                    <h4 class="preco text-danger font-weight-bold mb-0">R$ 399,99</h4>
-                                </div>
-                                <div class="col-6 text-right">
-                                    <button class="btn btn-danger my-2 pl-4 pr-4">Comprar</button>
-                                </div>
+                    <!-- ITEM -->
+                    <div class="col-4">
+                        <div class="item-viagem mb-5 card shadow-sm">
+                            <!-- IMAGEM DO ITEM-->
+                            <img class="card-img-top" src="itens/img/viagens/1.jpg" alt="Card image cap">
+                            <!-- DESCRIÇÃO DO ITEM -->
+                            <div class="card-body p-2">
+                                <h5 class="card-title text-danger text-weight-bold m-0">PASSEIO TREM MORRETES</h5>
+                                <h6 class="card-subtitle my-0 text-muted">Transporte + Passaporte</h6>
+        
                             </div>
+                            <!-- PREÇO E BOTÃO COMPRAR -->
+                            <div class="card-footer">
+                                    <div class="row">
+                                        <div class="col-6 text-left py-1">
+                                            <small class="text-muted my-1">Compre Agora:</small>
+                                            <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                            <div class="parcela">
+                                                <small class="text-muted">Em Até 5x no cartão</small></div>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <button class="btn btn-danger my-3 pl-4 pr-4 btn-lg">Comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
                         </div>
                     </div>
+        
                 </div>
-            </div>
 
 
 <!--
@@ -491,7 +514,23 @@
 -->
     </div>
 
-
+    <div class="card-footer bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center my-4">
+                    <h3 class="card-title text-white font-weight-bold">Inscreva-se e receba promoções e novidades!</h3>                    
+                </div>
+                   <div class="col-2 text-center"></div>
+                   <div class="col-6 text-center">
+                        <form>
+                            <input type="email" class="form-control" placeholder="Digite Seu email">
+                        </form>
+                </div>
+                <div class="col-2"><button class="btn btn-danger pl-5 pr-5 text-left" type="submit">Enviar</button></div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- JAVASCRIPTS -->
@@ -499,6 +538,7 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
 </body>
 
 </html>
