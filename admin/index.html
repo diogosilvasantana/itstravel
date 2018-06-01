@@ -10,14 +10,27 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../node_modules/bootstrap/compiler/bootstrap.css">
-    <link rel="stylesheet" href="../node_modules/bootstrap/compiler/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="../itens/style/css/login.css">
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.css">
 </head>
 
 <body>
 
-
+    <div class="container text-center">
+        <div class="formulario-login">
+            <form class="form-signin">
+                <img class="mb-4" src="../itens/img/logo-site/1.png" alt="" width="200" height="72">
+                <h5 class="title text-dark">Painel Administrativo</h5>
+                <label for="inputEmail" class="sr-only">Usuário</label>
+                <input type="text" id="user" class="form-control my-3" placeholder="Usuario" required>
+                <label for="inputPassword" class="sr-only">Senha</label>
+                <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+                <button class="btn btn-lg btn-primary btn-block my-3 mb-2" type="submit">Acessar</button>
+                <a href="#">Esqueceu a senha?</a>
+                <p class="mt-5 mb-3 text-muted">&copy; Its Travel 2018-2019</p>
+            </form>
+        </div>
+    </div>
 
     <!-- JAVASCRIPTS -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
