@@ -3,10 +3,10 @@
 
 .navbar-brand {
   width: 250px;
-  height: 63px; }
+  height: 90px; }
 
 .logo {
-  width: 55%;
+  width: 78%;
   position: relative; }
 
 .logo-footer {
@@ -73,6 +73,9 @@
 
 .hr-footer {
   border-bottom: 1px solid #6c757d; }
+
+.footer {
+  border-top: 3px solid purple; }
 
 /* LOGIN */
 
