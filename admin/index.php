@@ -2,6 +2,8 @@
 session_start();
  
 require '../config/init.php';
+
+require '../config/check.php';
 ?>
 <!doctype html>
 <html>
