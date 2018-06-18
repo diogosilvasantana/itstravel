@@ -20,7 +20,7 @@ require '../config/check.php';
         <?php if (isLoggedIn()): ?>
             <p>Olá, <?php echo $_SESSION['user_name']; ?>. <a href="panel.php">Painel</a> | <a href="../config/logout.php">Sair</a></p>
         <?php else: ?>
-            <?php header('Location: form-login.php'); ?>
+            <?php header('Location: login.php'); ?>
         <?php endif; ?>
  
     </body>

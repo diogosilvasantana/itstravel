@@ -10,4 +10,4 @@ $_SESSION['logged_in'] = false;
 session_destroy;
 
 // RETORNA PARA A PÁGINA DE LOGIN
-header('Location:../admin/form-login.php');
+header('Location:../admin/login.php');
