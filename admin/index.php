@@ -301,7 +301,7 @@ require '../config/check.php';
 
 
                 <div class="row pl-3 pr-3">
-                    <div class="col-3">
+                    <div class="col-lg-3">
                         <a class="card my-3 mb-3" href="#">
                             <div class="card-body text-center">
                             <i class="fa fa-suitcase fa-3x" aria-hidden="true"></i>
@@ -309,7 +309,7 @@ require '../config/check.php';
                             </div> 
                         </a>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3">
                         <a class="card my-3 mb-3" href="#">
                             <div class="card-body text-center">
                             <i class="fa fa-plane fa-3x" aria-hidden="true"></i>
@@ -317,7 +317,7 @@ require '../config/check.php';
                             </div> 
                         </a>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3">
                         <a class="card my-3 mb-3" href="#">
                             <div class="card-body text-center">
                             <i class="fa fa-user-circle fa-3x" aria-hidden="true"></i>
@@ -325,7 +325,7 @@ require '../config/check.php';
                             </div> 
                         </a>
                     </div>
-                    <div class="col-3">
+                    <div class="col-lg-3">
                         <a class="card my-3 mb-3" href="#">
                             <div class="card-body text-center">
                             <i class="fa fa-globe fa-3x" aria-hidden="true"></i>
