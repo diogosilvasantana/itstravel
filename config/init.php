@@ -11,4 +11,3 @@ error_reporting(E_ALL);
 
 // INCLUI O ARQUIVO DE FUNÇÕES
 require_once 'function.php';
-

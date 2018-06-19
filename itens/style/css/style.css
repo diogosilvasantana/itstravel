@@ -1,82 +1,114 @@
 .header {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .navbar-brand {
   width: 250px;
-  height: 90px; }
+  height: 90px;
+}
 
 .logo {
   width: 78%;
-  position: relative; }
+  position: relative;
+}
 
 .logo-footer {
   opacity: 0.7;
   width: 20%;
   margin-top: 20px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 .text-purple {
-  color: purple; }
-
+  color: purple;
+}
+.text-green-new{
+  color: #3cff00;
+  font-size: 11px;
+}
+.text-red-new{
+  color: #ff0000;
+  font-size: 11px;
+}
 .scrollspySite {
   position: relative;
   overflow: auto;
-  height: 380px; }
+  height: 380px;
+}
 
 .card-footer .btn-red {
-  background-color: red; }
-  .card-footer .btn-red:hover {
-    background-color: orange; }
+  background-color: red;
+}
+.card-footer .btn-red:hover {
+  background-color: orange;
+}
 
 .preco {
-  margin-top: -0.3rem; }
+  margin-top: -0.3rem;
+}
 
 .parcela {
-  margin-top: -0.8rem; }
+  margin-top: -0.8rem;
+}
 
 .icone {
   width: 30px;
-  font-size: 24px; }
+  font-size: 24px;
+}
 
 .titulo-viagens {
-  width: 100%; }
+  width: 100%;
+}
 
 .item-viagem .card-footer {
-  padding: 0.15rem 1.25rem; }
+  padding: 0.15rem 1.25rem;
+}
 
 .viagens-next {
-  text-align: right; }
+  text-align: right;
+}
 
 .navbar-nav .nav-link i {
   font-size: 1.5rem;
-  color: purple; }
-  .navbar-nav .nav-link i:hover {
-    color: orange; }
+  color: purple;
+}
+.navbar-nav .nav-link i:hover {
+  color: orange;
+}
 .navbar-nav .nav-item .text-purple {
-  color: purple; }
-  .navbar-nav .nav-item .text-purple:hover {
-    color: orange; }
+  color: purple;
+}
+.navbar-nav .nav-item .text-purple:hover {
+  color: orange;
+}
 
 .social-footer {
-  text-align: center; }
-  .social-footer .nav-link-social {
-    margin: 0 10px; }
-    .social-footer .nav-link-social i {
-      font-size: 1.5rem;
-      color: #6c757d; }
-      .social-footer .nav-link-social i:hover {
-        color: white; }
+  text-align: center;
+}
+.social-footer .nav-link-social {
+  margin: 0 10px;
+}
+.social-footer .nav-link-social i {
+  font-size: 1.5rem;
+  color: #6c757d;
+}
+.social-footer .nav-link-social i:hover {
+  color: white;
+}
 
 .copyright {
   background-color: #2e2f38;
-  color: #494949; }
+  color: #494949;
+}
 
 .hr-footer {
-  border-bottom: 1px solid #6c757d; }
+  border-bottom: 1px solid #6c757d;
+}
 
 .footer {
-  border-top: 3px solid purple; }
+  border-top: 3px solid purple;
+}
 
 /* LOGIN */
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=itens/style/css/style.css.map */
