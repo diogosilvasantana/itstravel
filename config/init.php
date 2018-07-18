@@ -1,9 +1,9 @@
 <?php
 // CONSTANTES COM AS CREDENCIAIS DE ACESSO AO BANCO MYSQL
-define('DB_HOST', 'localhost');
-define('DB_USER', 'dsweb296_itstrav');
-define('DB_PASS', '123456');
-define('DB_NAME', 'dsweb296_itstravel');
+define('DB_HOST', 'mysql');
+define('DB_USER', 'root');
+define('DB_PASS', 'root');
+define('DB_NAME', 'ITSTRAVEL');
 
 //HABIITA TODAS AS EXIBIÇÕES DE ERROS
 ini_set('display_errors', true);
