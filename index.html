@@ -1,66 +1,645 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!doctype html>
+<html lang="pt-br">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>DS WebSolution | Site em Construção</title>
-<link href="tools/style.css" rel="stylesheet" type="text/css" media="screen" />
-<link href="tools/font-awesome/css/font-awesome.css" type="text/css" rel="stylesheet">
-<script type="text/javascript" src="tools/jquery.min.js"></script> 
-<link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-<link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+    <title> Its Travel - Agência de Viagens Online</title>
+
+    <!-- META TAGS -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
+    <link rel="stylesheet" href="itens/style/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
 
 
 </head>
+
 <body>
-<div class="transy"></div>
-<div class="wrapper">
-	<div class="centered">
-		<div class="header">
-			<div id="logo"><img src="images/logo.png"></div><br><br>
-			<p class="line1">- Soluções Web & Gráfica -</p>
-		</div>
-		
-		<div class="content">
-			<p>Nossa página no momento está em construção!</p>
-		</div>
-		
-		
-		
-		<p>Fale conosco através dos nossos contatos abaixo:</p><br>
-		<h2>(11) 94273-7923</h2>
-		<h1>contato@dswebsolution.com.br</h1>
 
-		
-		
-		<!--
-		<div class="social">
-		<p>
-			<a href="#"><span class="socicon-pinterest"></span></a>
-			<a href="#"><span class="socicon-instagram"></span></a>
-			<a href="#"><span class="socicon-twitter"></span></a>
-			<a href="#"><span class="socicon-facebook"></span></a>
-		</p>
-		</div>
-	-->
-	</div>
-</div>
+    <!-- NAVEGAÇÃO TOPO-->
 
-	
-	
-		<script type="text/javascript">
-var placeholder = $("#test").val();
+    <nav class="header navbar p-1 navbar-expand-lg navbar-dark">
 
-$("#test").keydown(function() {
-    if (this.value == placeholder) {
-        this.value = '';
-    }
-}).blur(function() {
-    if (this.value == '') {
-        this.value = placeholder;
-    }
-});
-</script>
+        <div class="container">
+
+            <!-- LOGOMARCA-->
+            <a class="navbar-brand text-center" href="#">
+                <img class="logo" src="itens/img/logo-site/1.png">
+            </a>
+
+            <!-- BOTÃO MOBILE-->
+            <button class="navbar-toggler" style="background-color: purple" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSite">
+
+                <!-- LINKS DO MENU -->
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item mr-3">
+                        <a class="font-weight-bold link-menu nav-link text-purple" href="#"><i class="fa fa-home mr-2"></i>HOME</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="font-weight-bold link-menu nav-link text-purple" href="#"><i class="fas fa-bus mr-2"></i>VIAGENS & PASSEIOS</a>
+                    </li>
+                    <li class="nav-item mr-3">
+                        <a class="font-weight-bold link-menu nav-link text-purple" href="#"><i class="fas fa-ticket-alt mr-2"></i>INGRESSOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="font-weight-bold link-menu nav-link text-purple" href="#"><i class="fa fa-phone mr-2"></i>CONTATO</a>
+                    </li>
+                </ul>
+
+                <!-- REDES SOCIAIS -->
+                <ul class="navbar-nav social ml-auto text-center">
+                    <li><a class="nav-link text-purple" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a class="nav-link text-white" href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a class="nav-link text-white" href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a class="nav-link text-white" href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+
+                <!-- <ul class="navbar-nav ml-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                            REDES SOCIAIS
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Facebook</a>
+                            <a class="dropdown-item" href="#">Twitter</a>
+                            <a class="dropdown-item" href="#">Instagram</a>
+                            <a class="dropdown-item" href="#">Youtube</a>
+                        </div>
+                    </li>
+                </ul> -->
+                <!--
+                <form class="form-inline">
+                    <input class="form-control ml-4 mr-2" type="search" placeholder="Busca...">
+                    <button class="btn btn-dark" type="submit">OK</button>
+                </form>
+            -->
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- CARROSSEL SITE -->
+
+    <div id="carouselSite" class="carousel slide banner-inicio" data-ride="carousel">
+
+        <!-- INDICADORES DOS SLIDES -->
+        <ol class="carousel-indicators">
+            <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselSite" data-slide-to="1"></li>
+            <li data-target="#carouselSite" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <!-- CARROSSEL ITENS -->
+            <div class="carousel-item active">
+                <img src="itens/img/slide-01.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Beto Carrero World</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ex tempus, egestas nisl nec.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="itens/img/slide-02.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Conheça Curitiba</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ex tempus, egestas nisl nec.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="itens/img/slide-03.jpg" class="img-fluid d-block">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Passeio de Trem Morretes</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ex tempus, egestas nisl nec.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ÍCONE "ANTERIOR" DO SLIDE -->
+        <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+
+        <!-- ÍCONE "PRÓXIMO" DO SLIDE -->
+        <a class="carousel-control-next" href="#carouselSite" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+
+    <!-- CONTEÚDO DO SITE -->
+
+    <div class="container">
+
+        <!-- TÍTULO TOPO "BEM VINDO" -->
+        <!--
+        <div class="row">
+            <div class="col-12 text-center my-5">
+                <h1 class="display-3">Seja Bem Vindo</h1>
+                <p>In imperdiet euismod massa quis iaculis. Donec at ante vel ex vestibulum accumsan.
+                    Nulla at tristique quam, semper sagittis est. Fusce rutrum venenatis diam,
+                    a sollicitudin mi vulputate nec.</p>
+            </div>
+        </div> 
+    -->
+
+
+
+
+        <!-- PASSEIOS REGIONAIS -->
+        <div class="viagens">
+            <table class="titulo-viagens my-4">
+                <tr class="border-bottom">
+                    <td class="icone">
+                        <i class="fas fa-bus pb-3 mr-2 text-purple"></i>
+                    </td>
+                    <td class="text-left">
+                        <h3 class="card-title font-weight-bold">VIAGENS & PASSEIOS</h3>
+                    </td>
+                    <td class="text-right">
+                        <a class="btn btn-sm text-white" style="background-color: purple" href="#">Ver Todos</a>
+                    </td>
+                </tr>    
+            </table>
+
+        </div>
+
+        <!-- GRUPO DE ITENS VIAGENS -->
+        <div class="row justify-content-center">
+            <!-- ITEM -->
+            <div class="col-md-6 col-lg-4">
+                <div class="item-viagem card mb-5 shadow-sm">
+                    <!-- IMAGEM DO ITEM-->
+                    <img class="card-img-top" src="itens/img/viagens/3.jpg" alt="Card image cap">
+                    <!-- DESCRIÇÃO DO ITEM -->
+                    <div class="card-body p-2">
+                        <h5 class="card-title text-weight-bold m-0 text-purple">12/08 - CITY TOUR CURITIBA</h5>
+                        <h6 class="card-subtitle my-0 text-muted">Passeio Dia dos Pais</h6>
+
+                    </div>
+                    <!-- PREÇO E BOTÃO COMPRAR -->
+                    <div class="card-footer">
+                        <div class="row">
+                            <div class="col-6 text-left py-1">
+                                <small class="text-muted my-1">Compre Agora:</small>
+                                <h3 class="preco font-weight-bold text-danger">R$ 165,00</h3>
+                                <div class="parcela">
+                                    <small class="text-muted">Em Até 5x no cartão</small></div>
+                            </div>
+                            <div class="col-6 text-right">
+                                <a href="http://www.belaviagem.com/r/itstravel/citytourcuritiba"
+                                target="_blank" class="btn my-3 text-white pl-4 pr-4 btn-lg" style="background-color: purple">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ITEM -->
+            <div class="col-md-6 col-lg-4">
+                <div class="item-viagem mb-5 card shadow-sm">
+                    <!-- IMAGEM DO ITEM-->
+                    <img class="card-img-top" src="itens/img/viagens/2.jpg" alt="Card image cap">
+                    <!-- DESCRIÇÃO DO ITEM -->
+                    <div class="card-body p-2">
+                        <h5 class="card-title text-weight-bold m-0" style="color: purple">19/08 - BETO CARRERO WORLD</h5>
+                        <h6 class="card-subtitle my-0 text-muted">Promoção Dia dos Pais</h6>
+
+                    </div>
+                    <!-- PREÇO E BOTÃO COMPRAR -->
+                    <div class="card-footer">
+                            <div class="row">
+                                <div class="col-6 text-left py-1">
+                                    <small class="text-muted my-1">Compre Agora:</small>
+                                    <h3 class="preco text-danger font-weight-bold">R$ 139,00</h3>
+                                    <div class="parcela">
+                                        <small class="text-muted">Em Até 5x no cartão</small></div>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <button class="btn my-3 text-white pl-4 pr-4 btn-lg" style="background-color: purple">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <!-- ITEM -->
+            <div class="col-md-6 col-lg-4">
+                <div class="item-viagem mb-5 card shadow-sm">
+                    <!-- IMAGEM DO ITEM-->
+                    <img class="card-img-top" src="http://camilacoelho.com/wp-content/uploads/2017/01/AS-INACREDIT%C3%81VEIS-CATARATAS-DE-FOZ-DO-IGUA%C3%87U-camila-coelho-viagem3.jpg" alt="Card image cap">
+                    <!-- DESCRIÇÃO DO ITEM -->
+                    <div class="card-body p-2">
+                        <h5 class="card-title text-weight-bold m-0" style="color: purple">23 à 25/11 - FOZ DO IGUAÇU</h5>
+                        <h6 class="card-subtitle my-0 text-muted">Com Compras no Paraguai</h6>
+
+                    </div>
+                    <!-- PREÇO E BOTÃO COMPRAR -->
+                    <div class="card-footer">
+                            <div class="row">
+                                <div class="col-6 text-left py-1">
+                                    <small class="text-muted my-1">Compre Agora:</small>
+                                    <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                    <div class="parcela">
+                                        <small class="text-muted">Em Até 5x no cartão</small></div>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <button class="btn my-3 text-white pl-4 pr-4 btn-lg" style="background-color: purple">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <!-- ITEM -->
+            <div class="col-md-6 col-lg-4">
+                <div class="item-viagem mb-5 card shadow-sm">
+                    <!-- IMAGEM DO ITEM-->
+                    <img class="card-img-top" src="https://pix10.agoda.net/hotelImages/499/499943/499943_13092508460016226322.jpg?s=1024x768" alt="Card image cap">
+                    <!-- DESCRIÇÃO DO ITEM -->
+                    <div class="card-body p-2">
+                        <h5 class="card-title text-weight-bold m-0" style="color: purple">15 à 18/11 - FAZZENDA PARK HOTEL</h5>
+                        <h6 class="card-subtitle my-0 text-muted">Feriado Proclamação da República</h6>
+
+                    </div>
+                    <!-- PREÇO E BOTÃO COMPRAR -->
+                    <div class="card-footer">
+                            <div class="row">
+                                <div class="col-6 text-left py-1">
+                                    <small class="text-muted my-1">Compre Agora:</small>
+                                    <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                    <div class="parcela">
+                                        <small class="text-muted">Em Até 5x no cartão</small></div>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <button class="btn my-3 text-white pl-4 pr-4 btn-lg" style="background-color: purple">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+            <!-- ITEM -->
+            <div class="col-md-6 col-lg-4">
+                <div class="item-viagem mb-5 card shadow-sm">
+                    <!-- IMAGEM DO ITEM-->
+                    <img class="card-img-top" src="http://www.jornaldamanhamarilia.com.br/images/noticias/0875322001478530199.JPG" alt="Card image cap">
+                    <!-- DESCRIÇÃO DO ITEM -->
+                    <div class="card-body p-2">
+                        <h5 class="card-title text-weight-bold m-0" style="color: purple">17/11 - 80ª FESTA DAS FLORES DE JOINVILLE</h5>
+                        <h6 class="card-subtitle my-0 text-muted">Com Passeio de Barco Príncipe</h6>
+
+                    </div>
+                    <!-- PREÇO E BOTÃO COMPRAR -->
+                    <div class="card-footer">
+                            <div class="row">
+                                <div class="col-6 text-left py-1">
+                                    <small class="text-muted my-1">Compre Agora:</small>
+                                    <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                    <div class="parcela">
+                                        <small class="text-muted">Em Até 5x no cartão</small></div>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <button class="btn my-3 text-white pl-4 pr-4 btn-lg" style="background-color: purple">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+
+            <!-- ITEM -->
+            <div class="col-md-6 col-lg-4">
+                <div class="item-viagem mb-5 card shadow-sm">
+                    <!-- IMAGEM DO ITEM-->
+                    <img class="card-img-top" src="http://s2.glbimg.com/cv_pYyKCxY1hkdEHCJ6tdYG2EHs=/620x465/s.glbimg.com/jo/g1/f/original/2016/02/19/762a2623.jpg" alt="Card image cap">
+                    <!-- DESCRIÇÃO DO ITEM -->
+                    <div class="card-body p-2">
+                        <h5 class="card-title text-weight-bold m-0" style="color: purple">FESTA DA UVA 2019</h5>
+                        <h6 class="card-subtitle my-0 text-muted">Em Breve</h6>
+
+                    </div>
+                    <!-- PREÇO E BOTÃO COMPRAR -->
+                    <div class="card-footer">
+                            <div class="row">
+                                <div class="col-6 text-left py-1">
+                                    <small class="text-muted my-1">Informações em Breve...</small>
+                                    
+                                        
+                                </div>
+                                <div class="col-6 text-right">
+                                    <button class="btn my-3 text-white pl-4 pr-4 btn-lg" style="background-color: purple">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        
+
+
+        <!-- INGRESSOS -->
+         <div class="viagens">
+                <table class="titulo-viagens my-4">
+                    <tr class="border-bottom">
+                        <td class="icone">
+                            <i class="fas fa-ticket-alt pb-3 mr-2 text-purple"></i>
+                        </td>
+                        <td class="text-left">
+                            <h3 class="card-title font-weight-bold">INGRESSOS</h3>
+                        </td>
+                        <td class="text-right">
+                            <a class="btn btn-sm text-white" style="background-color: purple" href="#">Ver Todos</a>
+                        </td>
+                    </tr>    
+                </table>
+            </div>
+    
+            <!-- GRUPO DE ITENS VIAGENS -->
+            <div class="row justify-content-center">
+                    <!-- ITEM -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="item-viagem card mb-5 shadow-sm">
+                            <!-- IMAGEM DO ITEM-->
+                            <img class="card-img-top" src="https://www.gazetadopovo.com.br/viver-bem/wp-content/uploads/2015/07/jukeboxfestivaldedancadejoinville2014-600x450.jpg" alt="Card image cap">
+                            <!-- DESCRIÇÃO DO ITEM -->
+                            <div class="card-body p-2">
+                                <h5 class="card-title text-weight-bold m-0" style="color: purple">FESTIVAL DE DANÇA DE JOIVILLE +   BETO CARRERO WORLD</h5>
+                                <h6 class="card-subtitle my-0 text-muted">Promoção!!!</h6>
+        
+                            </div>
+                            <!-- PREÇO E BOTÃO COMPRAR -->
+                            <div class="card-footer">
+                                <div class="row">
+                                    <div class="col-6 text-left py-1">
+                                        <small class="text-muted my-1">Compre Agora:</small>
+                                        <h3 class="preco text-danger font-weight-bold">R$ 120,00</h3>
+                                        <div class="parcela">
+                                            <small class="text-muted">Em Até 5x no cartão</small></div>
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        <button class="btn my-3 text-white pl-4 pr-4 btn-lg" style="background-color: purple">Comprar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ITEM -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="item-viagem mb-5 card shadow-sm">
+                            <!-- IMAGEM DO ITEM-->
+                            <img class="card-img-top" src="http://imagens.onwt.com.br/jardineira-das-hortensias-4/produtos/suagramado-03082016161146.jpg">
+                            <!-- DESCRIÇÃO DO ITEM -->
+                            <div class="card-body p-2">
+                                <h5 class="card-title text-weight-bold m-0 text-purple">SNOWLAND PARQUE DE NEVE</h5>
+                                <h6 class="card-subtitle my-0 text-muted">Transporte + Passaporte</h6>
+        
+                            </div>
+                            <!-- PREÇO E BOTÃO COMPRAR -->
+                            <div class="card-footer">
+                                    <div class="row">
+                                        <div class="col-6 text-left py-1">
+                                            <small class="text-muted my-1">Compre Agora:</small>
+                                            <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                            <div class="parcela">
+                                                <small class="text-muted">Em Até 5x no cartão</small></div>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <button class="btn my-3 text-white pl-4 pr-4 btn-lg" style="background-color: purple">Comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <!-- ITEM -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="item-viagem mb-5 card shadow-sm">
+                            <!-- IMAGEM DO ITEM-->
+                            <img class="card-img-top" src="http://gotripps.com/sites/default/files/field/image/parque-unipraias-camboriu.jpg" alt="Card image cap">
+                            <!-- DESCRIÇÃO DO ITEM -->
+                            <div class="card-body p-2">
+                                <h5 class="card-title text-weight-bold m-0 text-purple">PARQUE UNIPRAIAS</h5>
+                                <h6 class="card-subtitle my-0 text-muted">Balneário Camboriu</h6>
+        
+                            </div>
+                            <!-- PREÇO E BOTÃO COMPRAR -->
+                            <div class="card-footer">
+                                    <div class="row">
+                                        <div class="col-6 text-left py-1">
+                                            <small class="text-muted my-1">Compre Agora:</small>
+                                            <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                            <div class="parcela">
+                                                <small class="text-muted">Em Até 5x no cartão</small></div>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <button class="btn my-3 text-white pl-4 pr-4 btn-lg" style="background-color: purple">Comprar</button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                                        <!-- ITEM -->
+                                        <div class="col-md-6 col-lg-4">
+                                            <div class="item-viagem mb-5 card shadow-sm">
+                                                <!-- IMAGEM DO ITEM-->
+                                                <img class="card-img-top" src="https://sambatur.com.br/wp-content/uploads/2018/03/passeio-de-barco-pirata-saindo-de-canasvieiras-em-florianopolis11.jpg">
+                                                <!-- DESCRIÇÃO DO ITEM -->
+                                                <div class="card-body p-2">
+                                                    <h5 class="card-title text-weight-bold m-0 text-purple">PASSEIO BARCO PIRATA</h5>
+                                                    <h6 class="card-subtitle my-0 text-muted">Florianópolis</h6>
+                            
+                                                </div>
+                                                <!-- PREÇO E BOTÃO COMPRAR -->
+                                                <div class="card-footer">
+                                                        <div class="row">
+                                                            <div class="col-6 text-left py-1">
+                                                                <small class="text-muted my-1">Compre Agora:</small>
+                                                                <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                                                <div class="parcela">
+                                                                    <small class="text-muted">Em Até 5x no cartão</small></div>
+                                                            </div>
+                                                            <div class="col-6 text-right">
+                                                                <button class="btn my-3 text-white pl-4 pr-4 btn-lg" style="background-color: purple">Comprar</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                        </div>
+             <!-- ITEM -->
+             <div class="col-md-6 col-lg-4">
+                <div class="item-viagem mb-5 card shadow-sm">
+                    <!-- IMAGEM DO ITEM-->
+                    <img class="card-img-top" src="http://www.viagenspossiveis.com.br/wp-content/uploads/2016/01/Bondinhos-Aereos-Teleferico-em-Canela-4.jpg">
+                    <!-- DESCRIÇÃO DO ITEM -->
+                    <div class="card-body p-2">
+                        <h5 class="card-title text-weight-bold m-0 text-purple">BONDINHOS AÉREOS</h5>
+                        <h6 class="card-subtitle my-0 text-muted">Serra Gaúcha</h6>
+
+                    </div>
+                    <!-- PREÇO E BOTÃO COMPRAR -->
+                    <div class="card-footer">
+                            <div class="row">
+                                <div class="col-6 text-left py-1">
+                                    <small class="text-muted my-1">Compre Agora:</small>
+                                    <h3 class="preco text-danger font-weight-bold">R$ 399,99</h3>
+                                    <div class="parcela">
+                                        <small class="text-muted">Em Até 5x no cartão</small></div>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <button class="btn my-3 text-white pl-4 pr-4 btn-lg" style="background-color: purple">Comprar</button>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+                </div>
+
+
+<!--
+
+        <div class="row">
+
+            <div class="col-3">
+                <nav id="navbarVertical" class="navbar navbar-light bg-light">
+
+                    <nav class="nav nav-pills flex-column">
+                        <a class="nav-link" href="#item1">Item 1</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item1-1">Item 1-1</a>
+                            <a class="nav-link ml-3" href="#item1-2">Item 1-2</a>
+                        </nav>
+                        <a class="nav-link my-2" href="#item2">Item 2</a>
+                        <a class="nav-link my-2" href="#item3">Item 3</a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link ml-3" href="#item3-1">Item 3-1</a>
+                            <a class="nav-link ml-3" href="#item3-2">Item 3-2</a>
+                        </nav>
+                    </nav>
+
+                </nav>
+            </div>
+
+
+            <div class="col-9">
+
+                <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+
+                    <h4 id="item1">Item 1</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id ex tempus, egestas nisl nec, auctor ipsum. Curabitur est nisl, scelerisque efficitur auctor quis, cursus sit amet nunc. In hac habitasse platea dictumst. Pellentesque quam quam, viverra ac sollicitudin id, feugiat a quam. Suspendisse viverra ultrices lacinia.</p>
+
+                    <h5 id="item1-1">Item 1-1</h5>
+                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut. Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla in leo porttitor ornare. Integer non quam dolor.</p>
+
+                    <h5 id="item1-2">Item 1-2</h5>
+                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut. Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla in leo porttitor ornare. Integer non quam dolor.</p>
+
+                    <h5 id="item2">Item 2</h5>
+                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut. Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla in leo porttitor ornare. Integer non quam dolor.</p>
+
+                    <h5 id="item3">Item 3</h5>
+                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut. Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla in leo porttitor ornare. Integer non quam dolor.</p>
+
+                    <h5 id="item3-1">Item 3-1</h5>
+                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut. Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla in leo porttitor ornare. Integer non quam dolor.</p>
+
+                    <h5 id="item3-2">Item 3-2</h5>
+                    <p>Quisque egestas massa a ornare iaculis. Proin dignissim rhoncus justo, at congue tortor gravida ut. Proin ex diam, rhoncus fermentum purus a, venenatis pulvinar leo. Sed et urna lectus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque id nulla in leo porttitor ornare. Integer non quam dolor.</p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+-->
+    </div>
+
+    <!-- 1º RODAPÉ -->
+    <div class="footer bg-dark justify-content-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img class="logo-footer" src="itens/img/logo-site/2.png">
+                </div>
+            </div>
+
+            <div class="row py-3">
+                <div class="col-12">
+                    <p class="text-muted text-center mb-0">
+                        A Its Travel coloca ao seu alcance destinos regionais e nacionais para você e sua família. 
+                        Agora você pode contar com a facilidade de escolher seu passeio, viagem ou ingresso de forma 
+                        online com um atendimento de qualidade, com toda segurança e agilidade de uma equipe comprometida com o seu bem estar.
+                             Fale com a gente e venha viajar com a Its.
+                    </p>
+                </div>
+            </div>
+            <hr class="hr-footer">
+            <div class="row py-3">
+                <div class="col-lg-4">
+                    <h3 class="title text-muted my-3">Its Travel Viagens</h3>
+                    <span class="text-muted"><i class="fa fa-road mr-2"></i>Rua Dona Francisca, 1113</span><br>
+                    <span class="text-muted"><i class="fa fa-map-marker mr-2"></i> Sala 908 - Saguaçu - Joinville/SC</span><br>
+                    <span class="text-muted"><i class="fa fa-envelope mr-2"></i><a class="text-muted" href="mailto:atendimento@itstravel.com.br" class="grey-text" title="Email TourOn">atendimento@itstravel.com.br</a>
+
+                </div>
+                <div class="col-lg-4">
+                    <h3 class="title text-muted my-3">Informações</h3>
+                    <div class="links-footer">
+                        <a class="link-menu text-muted" href="#"><i class="fa fa-building mr-2"></i>Sobre a Its Travel</a><br>
+                        <a class="link-menu text-muted" href="#"><i class="fas fa-times-circle mr-2"></i>Política de Cancelamento</a><br>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 justify-content-center">
+                    <h5 class="title text-muted my-3">Inscreva-se e receba nossas novidades</h5>
+                    <form class="form-inline">
+                        <input class="form-control" type="email" placeholder="Digite seu E-mail">
+                        <button class="botao-inscrever btn btn-danger" type="submit">Inscrever</button>
+                    </form><br>
+                    <h5 class="title text-muted">Siga-nos nas Redes Sociais</h5>
+                    <div class="navbar-expand">
+                        <ul class="navbar-nav social-footer">
+                            <li><a class="nav-link-social" href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a class="nav-link-social" href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a class="nav-link-social" href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a class="nav-link-social" href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- RODAPÉ COPYRIGHT -->
+    <div class="copyright text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+                <small class="text-muted">Its Travel - Todos os direitos reservados.</small><br>
+                <small class="text-muted">Desenvolvido por DS WebSolution</small>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <!-- JAVASCRIPTS -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 
 </body>
+
 </html>
